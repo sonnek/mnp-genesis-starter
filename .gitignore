@@ -6,9 +6,10 @@
 !.gitignore
 
 ############################################
-# Ignore Bower and Node directories        #
+# Ignore Bower, Grunt and Node directories #
 ############################################
 bower_components/
+components/
 node_modules/
 
 ############################################

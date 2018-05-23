@@ -55,8 +55,10 @@ function mnpgs_setup() {
   genesis_unregister_layout( 'sidebar-sidebar-content' );
   genesis_unregister_layout( 'sidebar-content-sidebar' );
 
-  // Unregister secondary sidebar
+  // Unregister secondary sidebar.
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar('sidebar-alt');
 
+  // Add theme widget areas.
+  include_once( get_stylesheet_directory() . '/functions/widget-areas.php' );
 };
