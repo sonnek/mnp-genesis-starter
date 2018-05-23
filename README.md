@@ -14,8 +14,8 @@ If you don't have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installin
 Otherwise, you can istall the theme using Git.
 
 1. Start by navigating to your `wp-content/themes` folder.
-2. Once you're there, open `terminal` in the current folder.
-3. Now with `terminal`, use the following commands to clone: `git clone git@github.com:https://github.com/milesnorth/mnp-genesis-starter.git`
+2. Once you're there, open your terminal in the current folder.
+3. From the terminal, type the following command to clone: `git clone git@github.com:https://github.com/milesnorth/mnp-genesis-starter.git`
 
 #### Step 2: Development
 Now that you have the repo cloned or installed, you can start development.
