@@ -81,28 +81,6 @@ module.exports = (grunt) ->
         files:
           'style.css': 'styles/scss/style.scss'
 
-    less:
-      options:
-        compress: false,
-        strictUnits: true
-
-
-      dev:
-        options:
-          sourceMap: true,
-          strictUnits: true
-
-        files:
-          'style.css': 'styles/less/style.less'
-
-      dist:
-        options:
-          sourceMap: true,
-          strictUnits: true
-
-        files:
-          'style.css': 'styles/less/style.less'
-
     csscomb:
       dist:
         options:
@@ -164,10 +142,6 @@ module.exports = (grunt) ->
         options:
           message: 'Sass files has been compiled.'
 
-      less:
-        options:
-          message: 'Less files has been compiled.'
-
     wakeup:
       complete:
         options:
@@ -207,13 +181,6 @@ module.exports = (grunt) ->
           'wakeup:complete'
         ]
 
-      less:
-        files: ['styles/**/*.less']
-        tasks: [
-          'less-build'
-          'wakeup:complete'
-        ]
-
       js:
         files: ['js/**/*.js']
 
@@ -234,29 +201,6 @@ module.exports = (grunt) ->
     'csscomb:dist'
     'postcss:dist'
     'notify:release'
-    'compress:release'
-  ]
-
-  # Less Tasks
-  grunt.registerTask 'less-build', [
-    'less:dev'
-    'postcss:dev'
-    'notify:less'
-  ]
-
-  grunt.registerTask 'less-dev', [
-    'less-build'
-    'notify:init'
-    'wakeup:complete'
-    'watch:less'
-  ]
-
-  grunt.registerTask 'less-dist', [
-    'less:dist'
-    'csscomb:dist'
-    'postcss:dist'
-    'notify:release'
-    'wakeup:complete'
     'compress:release'
   ]
 

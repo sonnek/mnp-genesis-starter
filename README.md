@@ -1,12 +1,12 @@
 # MNPdev Genesis Starter
 This is the MNPdev house starter template for Genesis child themes. This repo comes preinstalled with 2 different paths:
 - [CSS](#css-path)
-- [Preprocessor](#preprocessor-path)  (Both LESS and Sass are included.)
+- [Sass](#sass-path)
 
 ___
 
 ## CSS Path
-If you do not want to use LESS or Sass, follow this installation process.
+If you do not want to use Sass, follow this installation process.
 
 #### Cloning the Repo
 If you don't have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, you can download the [ZIP file](https://github.com/milesnorth/mnp-genesis-starter/archive/master.zip) and drop it into your `wp-content/themes` folder.
@@ -23,15 +23,15 @@ You won't need the styles folder, so it's a good idea to tidy up and delete it b
 
 ___
 
-## Preprocessor Path
-If you want to speed up your development, you can use either LESS or Sass.
+## Sass Path
+If you want to speed up your development, you can use Sass.
 
 #### Requirements
 You will need the following applications installed before using a preprocessor.
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Node.js](http://nodejs.org/)
-- [GruntJS](http://gruntjs.com/) - _A JavaScript Task Runner_
-- [Sass](http://sass-lang.com/install) - _If you're using Sass/Scss_
+- [GruntJS](http://gruntjs.com/)
+- [Sass](http://sass-lang.com/install)
 
 
 #### Step 1: Install Node.js
@@ -64,10 +64,7 @@ If you don't have Git installed, you can follow the Git setup instructions in th
 
 #### Step 6: Running Grunt
 1. Cd into the grunt directory (if you're still in the theme directory, use `cd grunt` to navigate to the grunt directory, and run the command `grunt`.
-2. Once Grunt has been initiated, you can save your LESS or Sass styles and they will compile to style.css.
-
-#### Development Notes
-Stick to either LESS or Sass in your development. Changes made in one modality will overwrite the other.
+2. Once Grunt has been initiated, your Sass styles will compile to style.css.
 
 ___
 
