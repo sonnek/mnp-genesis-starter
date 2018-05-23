@@ -19,7 +19,7 @@ Otherwise, you can istall the theme using Git.
 Now that you have the repo cloned or installed, you can start development.
 You won't need the styles folder, so it's a good idea to tidy up and delete it before you begin working on your new theme.
 
--
+___
 
 ## Preprocessor Path
 If you want to speed up your development, you can use either LESS or Sass.
@@ -65,7 +65,7 @@ Again, you can check to see if you have Git installed by typing `git -v` in the 
 1. Cd into the grunt directory, and run the following command: `grunt`.
 2. Once grunt has been initiated, you can save your LESS or Sass styles and they will compile to style.css.
 
--
+___
 
 ## Copyright & License
 Copyright 2018 Miles North Productions. Code released under [GNU license v3](http://www.gnu.org/licenses/gpl-3.0.html).
