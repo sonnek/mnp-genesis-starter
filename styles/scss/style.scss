@@ -12,23 +12,116 @@
  Text Domain:  mnp-gs
 */
 
+/* Table of Contents
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+  - Float Clearing
+- Typography
+- Defaults
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+	- Screen Reader Text
+- Structure and Layout
+	- Site Container
+	- Site Inner
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Gravity Forms
+- Skip Links
+- Header
+	- Title Area
+- Navigation
+	- Responsive Menu
+	- Header Menu
+	- Footer Menu
+- Content
+	- Entry Content
+	- Entry Meta
+	- Pagination
+	- Entry Comments
+- Sidebar
+- Footer
+- Print Styles
+*/
+
 // Variables
 @import "base/variables";
 
 // Mixins
 @import "base/mixins";
 
-/* Body */
-@import "partials/body";
+/**********************
+ HTML5 Reset
+***********************/
+@import "partials/reset";
 
-/* Header */
+/**********************
+ Typography
+ **********************/
+ @import "partials/typography";
+
+/**********************
+ Defaults
+***********************/
+@import "partials/defaults";
+
+/**********************
+ Structure and Layouts
+***********************/
+@import "partials/structure-and-layout";
+
+/**********************
+ Common Classes
+***********************/
+@import "partials/common-classes";
+
+/**********************
+ Widgets
+***********************/
+@import "partials/widgets";
+
+/**********************
+ Plugins
+***********************/
+@import "partials/plugins";
+
+/**********************
+ Skip Links
+***********************/
+@import "partials/skip-links";
+
+/**********************
+ Header
+***********************/
 @import "partials/header";
 
-/* Button */
-@import "partials/button";
+/**********************
+ Navigation
+***********************/
+@import "partials/navigation";
 
-/* Input */
-@import "partials/input";
+/**********************
+ Content
+***********************/
+@import "partials/content";
 
-/* Footer */
+/**********************
+ Footer
+***********************/
 @import "partials/footer";
+
+/**********************
+ Print Styles
+***********************/
+@import "partials/print-styles";

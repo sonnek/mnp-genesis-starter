@@ -8,7 +8,7 @@ ___
 ## CSS Path
 If you do not want to use LESS or Sass, follow this installation process.
 
-#### Step 1: Cloning the Repo
+#### Cloning the Repo
 If you don't have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, you can download the [ZIP file](https://github.com/milesnorth/mnp-genesis-starter/archive/master.zip) and drop it into your `wp-content/themes` folder.
 
 Otherwise, you can istall the theme using Git.
@@ -17,7 +17,7 @@ Otherwise, you can istall the theme using Git.
 2. Once you're there, open your terminal in the current folder.
 3. From the terminal, type the following command to clone: `git clone git@github.com:https://github.com/milesnorth/mnp-genesis-starter.git`
 
-#### Step 2: Development
+#### Development Notes
 Now that you have the repo cloned or installed, you can start development.
 You won't need the styles folder, so it's a good idea to tidy up and delete it before you begin working on your new theme.
 
@@ -50,8 +50,7 @@ If you're not sure whether you have GruntJS installed, you can check by opening 
 #### Step 3: Installing Git
 Again, you can check to see if you have Git installed by running `git -v` in the terminal. If you already have it installed, skip to step [#4](#step-4-cloning-repo).
 
-1. Go to `https://git-scm.com/book/en/v2/Getting-Started-Installing-Git` and follow the instructions for installing Git.
-2. Go to step [#4](#step-4-cloning-repo).
+If you don't have Git installed, you can follow the Git setup instructions in the [Git documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and then proceed to step [#4](#step-4-cloning-repo).
 
 #### Step 4: Cloning Repo
 1. With git installed, navigate to `wp-content/themes` folder.
@@ -66,6 +65,9 @@ Again, you can check to see if you have Git installed by running `git -v` in the
 #### Step 6: Running Grunt
 1. Cd into the grunt directory (if you're still in the theme directory, use `cd grunt` to navigate to the grunt directory, and run the command `grunt`.
 2. Once Grunt has been initiated, you can save your LESS or Sass styles and they will compile to style.css.
+
+#### Development Notes
+Stick to either LESS or Sass in your development. Changes made in one modality will overwrite the other.
 
 ___
 
