@@ -7,7 +7,7 @@ This is the MNPdev house starter template for Genesis child themes. This repo co
 If you do not want to use LESS or Sass, follow this installation process.
 
 #### Step 1: Cloning the Repo
-If you don't have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, you can download the [ZIP file](https://github.com/milesnorth/mnp-genesis-starter/archive/master.zip) and drop it into your `wp-content/themes` folder. (You may see a 404 page and still have the zip file download.)
+If you don't have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, you can download the [ZIP file](https://github.com/milesnorth/mnp-genesis-starter/archive/master.zip) and drop it into your `wp-content/themes` folder.
 
 Otherwise, you can istall the theme using Git.
 
