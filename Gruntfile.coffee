@@ -72,14 +72,14 @@ module.exports = (grunt) ->
         options:
           sourcemap: 'auto'
         files:
-          'style.css': 'styles/scss/style.scss'
+          'style.css': 'styles/style.scss'
 
       dist:
         options:
           sourcemap: false
 
         files:
-          'style.css': 'styles/scss/style.scss'
+          'style.css': 'styles/style.scss'
 
     csscomb:
       dist:
