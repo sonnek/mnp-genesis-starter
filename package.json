@@ -1,21 +1,21 @@
 {
-  "name": "divi-child-theme-init",
-  "version": "0.1.2",
-  "description": "Child theme template for Divi",
+  "name": "mnp-genesis-starter",
+  "version": "1.0.0",
+  "description": "MNPdev house Genesis starter theme",
   "main": "Gruntfile.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elegantthemes/divi-child-theme-init.git"
+    "url": "git+https://github.com/milesnorth/mnp-genesis-starter.git"
   },
-  "author": "Andy Tran",
-  "license": "MIT",
+  "author": "Rachelle Soller",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/elegantthemes/divi-child-theme-init/issues"
+    "url": "https://github.com/milesnorth/mnp-genesis-starter/issues"
   },
-  "homepage": "https://github.com/elegantthemes/divi-child-theme-init#readme",
+  "homepage": "https://github.com/milesnorth/mnp-genesis-starter#readme",
   "dependencies": {
     "grunt": "^0.4.5"
   },
