@@ -56,8 +56,7 @@ If you don't have Git installed, you can follow the Git setup instructions in th
 1. With git installed, navigate to `wp-content/themes` folder.
 2. Clone the repo using the following command: `git clone git@github.com:https://github.com/milesnorth/mnp-genesis-starter.git`.
 3. Now with the repo cloned, you can navigate to it by running `cd mnp-genesis-starter`.
-4. Install Git submodules by running `git submodule init` them `git submodule install`.
-5. Go to step [#5](#step-5-installing-packages).
+4. Go to step [#5](#step-5-installing-packages).
 
 #### Step 5: Installing Packages
 1. From the theme current directory, install node packages with the following command: `npm install`.
