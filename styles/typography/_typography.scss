@@ -1,0 +1,39 @@
+//Gridlover modular scale and vertical rhythm
+@import "Sassy-Gridlover/sassy-gridlover/sassy-gridlover";
+
+/* Body */
+html {
+  @include sgl-html();
+}
+body {
+ @include sgl-body();
+}
+
+p, ul, ol, pre, table, blockquote {
+  @include sgl-margins();
+}
+
+/* Headings */
+h1 {
+  @include sgl-heading( 4 );
+}
+
+h2 {
+  @include sgl-heading( 3 );
+}
+
+h3 {
+  @include sgl-heading( 2 );
+}
+
+h4 {
+  @include sgl-heading( 1 );
+}
+
+h5 {
+  @include sgl-heading ( 0 );
+}
+
+h6 {
+  @include sgl-heading ( 0 );
+}
