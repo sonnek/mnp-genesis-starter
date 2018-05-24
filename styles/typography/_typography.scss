@@ -1,39 +1,43 @@
-//Gridlover modular scale and vertical rhythm
-@import "Sassy-Gridlover/sassy-gridlover/sassy-gridlover";
+//Modular Scale setup
+@import "modularscale";
 
-/* Body */
 html {
-  @include sgl-html();
-}
-body {
- @include sgl-body();
+  font-size: 100%;
+  line-height: 1.5;
 }
 
-p, ul, ol, pre, table, blockquote {
-  @include sgl-margins();
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  @include ms-responsive( 0 );
 }
 
-/* Headings */
+/*
+ * Headers
+ */
 h1 {
-  @include sgl-heading( 4 );
+  @include ms-responsive( 4 );
 }
 
 h2 {
-  @include sgl-heading( 3 );
+  @include ms-responsive( 3 );
 }
 
 h3 {
-  @include sgl-heading( 2 );
+  @include ms-responsive( 2 );
 }
 
 h4 {
-  @include sgl-heading( 1 );
+  @include ms-responsive( 1 );
 }
 
 h5 {
-  @include sgl-heading ( 0 );
+  @include ms-responsive( 0 );
 }
 
 h6 {
-  @include sgl-heading ( 0 );
+  @include ms-responsive( 0 );
 }
