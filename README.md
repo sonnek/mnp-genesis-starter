@@ -53,7 +53,7 @@ Again, you can check to see if you have Git installed by running `git -v` in the
 If you don't have Git installed, you can follow the Git setup instructions in the [Git documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and then proceed to step [#4](#step-4-cloning-repo).
 
 #### Step 4: Cloning Repo
-1. With git installed, navigate to `wp-content/themes` folder.
+1. With git installed, navigate to the themes folder with the command ` cd ~/<project-path>/wp-content/themes`.
 2. Clone the repo using the following command: `git clone git@github.com:https://github.com/milesnorth/mnp-genesis-starter.git`.
 3. Now with the repo cloned, you can navigate to it by running `cd mnp-genesis-starter`.
 4. Go to step [#5](#step-5-installing-packages).
