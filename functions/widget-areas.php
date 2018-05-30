@@ -14,12 +14,12 @@
 // Register front page widget areas.
 genesis_register_sidebar(array(
   'id' => 'home-welcome',
-  'name' => __('Home Welcome', 'mnp-gs'),
-  'description' => __('This is a home widget area that will show up on the front page.', 'mnp-gs'),
+  'name' => __('Home Welcome', 'mnp-poc'),
+  'description' => __('This is a home widget area that will show up on the front page.', 'mnp-poc'),
 ));
 
 genesis_register_sidebar(array(
   'id' => 'call-to-action',
-  'name' => __('Call to action', 'mnp-gs'),
-  'description' => __('This is a call to action widget area that will show up on the front page.', 'mnp-gs'),
+  'name' => __('Call to action', 'mnp-poc'),
+  'description' => __('This is a call to action widget area that will show up on the front page.', 'mnp-poc'),
 ));

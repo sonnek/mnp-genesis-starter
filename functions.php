@@ -11,7 +11,7 @@
  */
 
 // Load child theme textdomain.
-load_child_theme_textdomain( 'mnp-gs' );
+load_child_theme_textdomain( 'mnp-poc' );
 
 add_action('genesis_setup', 'mnpgs_setup', 15 );
 /**
